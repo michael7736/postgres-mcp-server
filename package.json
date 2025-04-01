@@ -1,0 +1,23 @@
+{
+  "name": "postgres-products-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "npx tsc && chmod +x build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "pg": "^8.14.1",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.15",
+    "@types/pg": "^8.11.11"
+  }
+}
